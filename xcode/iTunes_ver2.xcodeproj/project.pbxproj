@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,14 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		2D2145BFE26348D69407977A /* iTunes_ver2App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF908686A1FD42ADA4CE37C7 /* iTunes_ver2App.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C5538E9384314B96B7FE4031 /* iTunes_ver2_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 857672FFA0B84DE4A32D1E61 /* iTunes_ver2_Prefix.pch */; };
 		5FEC54984D6F4CA69082765A /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = ADFBF4250AB04C489666F900 /* CinderApp.icns */; };
-		D00DAC2F3EC64CD1BD7E4206 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0F9BFDF0C9464A8054C8BD /* Resources.h */; };
-		2D2145BFE26348D69407977A /* iTunes_ver2App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF908686A1FD42ADA4CE37C7 /* iTunes_ver2App.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FF309F3619F45BC6002B2652 /* whitecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FF309F3519F45BC6002B2652 /* whitecircle.png */; };
+		FF4FB91019F33E92001EA2F4 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF4FB90E19F33E92001EA2F4 /* Particle.cpp */; };
+		FF4FB91119F33E92001EA2F4 /* ParticleCon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF4FB90F19F33E92001EA2F4 /* ParticleCon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +31,19 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		353B9959A71B4A478C73A5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		857672FFA0B84DE4A32D1E61 /* iTunes_ver2_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = iTunes_ver2_Prefix.pch; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iTunes_ver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunes_ver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF908686A1FD42ADA4CE37C7 /* iTunes_ver2App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/iTunes_ver2App.cpp; sourceTree = "<group>"; name = iTunes_ver2App.cpp; };
-		CD0F9BFDF0C9464A8054C8BD /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		ADFBF4250AB04C489666F900 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		353B9959A71B4A478C73A5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		857672FFA0B84DE4A32D1E61 /* iTunes_ver2_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = iTunes_ver2_Prefix.pch; sourceTree = "<group>"; name = iTunes_ver2_Prefix.pch; };
+		ADFBF4250AB04C489666F900 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		CD0F9BFDF0C9464A8054C8BD /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		DF908686A1FD42ADA4CE37C7 /* iTunes_ver2App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = iTunes_ver2App.cpp; path = ../src/iTunes_ver2App.cpp; sourceTree = "<group>"; };
+		FF309F3519F45BC6002B2652 /* whitecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitecircle.png; sourceTree = "<group>"; };
+		FF4FB90E19F33E92001EA2F4 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		FF4FB90F19F33E92001EA2F4 /* ParticleCon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleCon.cpp; sourceTree = "<group>"; };
+		FF4FB91219F33EA0001EA2F4 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		FF4FB91319F33EA0001EA2F4 /* ParticleCon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleCon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				DF908686A1FD42ADA4CE37C7 /* iTunes_ver2App.cpp */,
+				FF4FB90F19F33E92001EA2F4 /* ParticleCon.cpp */,
+				FF4FB90E19F33E92001EA2F4 /* Particle.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -112,18 +127,13 @@
 			name = iTunes_ver2;
 			sourceTree = "<group>";
 		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
 				CD0F9BFDF0C9464A8054C8BD /* Resources.h */,
 				857672FFA0B84DE4A32D1E61 /* iTunes_ver2_Prefix.pch */,
+				FF4FB91319F33EA0001EA2F4 /* ParticleCon.h */,
+				FF4FB91219F33EA0001EA2F4 /* Particle.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -131,6 +141,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF309F3519F45BC6002B2652 /* whitecircle.png */,
 				ADFBF4250AB04C489666F900 /* CinderApp.icns */,
 				353B9959A71B4A478C73A5D4 /* Info.plist */,
 			);
@@ -172,6 +183,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTunes_ver2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FEC54984D6F4CA69082765A /* CinderApp.icns in Resources */,
+				FF309F3619F45BC6002B2652 /* whitecircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4FB91119F33E92001EA2F4 /* ParticleCon.cpp in Sources */,
 				2D2145BFE26348D69407977A /* iTunes_ver2App.cpp in Sources */,
+				FF4FB91019F33E92001EA2F4 /* Particle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,24 +234,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTunes_ver2_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iTunes_ver2_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = iTunes_ver2;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -249,31 +265,31 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTunes_ver2_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iTunes_ver2_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = iTunes_ver2;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
 				CINDER_PATH = "../../../../The Art of Graphic Programming/AOGP/cinder_master";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -286,11 +302,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
 				CINDER_PATH = "../../../../The Art of Graphic Programming/AOGP/cinder_master";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
